@@ -1,0 +1,16 @@
+[TraceId: ] 2024-05-17 20:03:40.114 [main] INFO  com.ithsy.weblog.web.WeblogWebApplication - Starting WeblogWebApplication using Java 1.8.0_291 on LAPTOP-LCDPLI24 with PID 440 (D:\Projects\weblog\weblog-springboot\weblog-web\target\classes started by huang shun yi in D:\Projects\weblog\weblog-springboot)
+[TraceId: ] 2024-05-17 20:03:40.118 [main] INFO  com.ithsy.weblog.web.WeblogWebApplication - The following profiles are active: prod
+[TraceId: ] 2024-05-17 20:03:40.900 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+[TraceId: ] 2024-05-17 20:03:40.906 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[TraceId: ] 2024-05-17 20:03:40.907 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+[TraceId: ] 2024-05-17 20:03:40.996 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[TraceId: ] 2024-05-17 20:03:40.996 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 843 ms
+[TraceId: ] 2024-05-17 20:03:41.293 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+[TraceId: ] 2024-05-17 20:03:41.300 [main] INFO  com.ithsy.weblog.web.WeblogWebApplication - Started WeblogWebApplication in 1.65 seconds (JVM running for 2.766)
+[TraceId: ] 2024-05-17 20:03:57.630 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[TraceId: ] 2024-05-17 20:03:57.630 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[TraceId: ] 2024-05-17 20:03:57.631 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[TraceId: 42fb584c-8236-4109-9dc6-79655a76dbcf] 2024-05-17 20:03:57.769 [http-nio-8080-exec-1] INFO  c.ithsy.weblog.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"admin","sex":1}, 请求类: TestController, 请求方法: test =================================== 
+[TraceId: 42fb584c-8236-4109-9dc6-79655a76dbcf] 2024-05-17 20:03:57.778 [http-nio-8080-exec-1] INFO  c.ithsy.weblog.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 24ms, 出参: {"username":"admin","sex":1} =================================== 
+[TraceId: 91402749-8453-4395-a200-14cea23c9662] 2024-05-17 20:10:38.971 [http-nio-8080-exec-5] INFO  c.ithsy.weblog.common.aspect.ApiOperationLogAspect - ====== 请求开始: [测试接口], 入参: {"username":"ithsy","sex":1}, 请求类: TestController, 请求方法: test =================================== 
+[TraceId: 91402749-8453-4395-a200-14cea23c9662] 2024-05-17 20:10:38.971 [http-nio-8080-exec-5] INFO  c.ithsy.weblog.common.aspect.ApiOperationLogAspect - ====== 请求结束: [测试接口], 耗时: 0ms, 出参: {"username":"ithsy","sex":1} =================================== 

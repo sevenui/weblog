@@ -1,0 +1,7 @@
+2024-05-15 20:49:34.284 [main] INFO  com.ithsy.weblog.web.WeblogWebApplicationTests - Starting WeblogWebApplicationTests using Java 1.8.0_291 on LAPTOP-LCDPLI24 with PID 30544 (started by huang shun yi in D:\Projects\weblog\weblog-springboot\weblog-web)
+2024-05-15 20:49:34.285 [main] INFO  com.ithsy.weblog.web.WeblogWebApplicationTests - The following profiles are active: prod
+2024-05-15 20:49:35.814 [main] INFO  com.ithsy.weblog.web.WeblogWebApplicationTests - Started WeblogWebApplicationTests in 2.158 seconds (JVM running for 3.601)
+2024-05-15 20:49:36.153 [main] INFO  com.ithsy.weblog.web.WeblogWebApplicationTests - 这是一行 Info 级别日志
+2024-05-15 20:49:36.154 [main] WARN  com.ithsy.weblog.web.WeblogWebApplicationTests - 这是一行 Warn 级别日志
+2024-05-15 20:49:36.154 [main] ERROR com.ithsy.weblog.web.WeblogWebApplicationTests - 这是一行 Error 级别日志
+2024-05-15 20:49:36.154 [main] INFO  com.ithsy.weblog.web.WeblogWebApplicationTests - 这是一行带有占位符日志，作者：ithsy
