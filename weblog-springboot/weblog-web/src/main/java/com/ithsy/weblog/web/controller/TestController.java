@@ -1,11 +1,13 @@
 package com.ithsy.weblog.web.controller;
 
 import com.ithsy.weblog.common.aspect.ApiOperationLog;
+import com.ithsy.weblog.common.domain.mapper.UserMapper;
 import com.ithsy.weblog.common.exception.BizException;
 import com.ithsy.weblog.common.enums.ResponseCodeEnum;
 import com.ithsy.weblog.common.utils.Response;
 import com.ithsy.weblog.web.model.User;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -77,5 +79,7 @@ BindingResult : 验证的结果对象，其中包含所有验证错误信息；*
         // 手动抛异常，入参是前面定义好的异常码枚举，返参统一交给全局异常处理器搞定
         throw new BizException(ResponseCodeEnum.PRODUCT_NOT_FOUND);
     }
+
+
 
 }

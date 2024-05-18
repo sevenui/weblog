@@ -1,5 +1,5 @@
 import '@/assets/main.css'
-
+import 'animate.css';
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 
@@ -8,6 +8,7 @@ import App from '@/App.vue'
 import router from '@/router'
 // 导入 Element Plus 图标
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
+// 跨浏览器的 CSS 动画库
 
 const app = createApp(App)
 
