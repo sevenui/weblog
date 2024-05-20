@@ -26,6 +26,7 @@
         <module>weblog-web</module>
         <module>weblog-module-admin</module>
         <module>weblog-module-common</module>
+        <module>weblog-module-jwt</module>
     </modules>
 
 
@@ -52,17 +53,41 @@
         <mybatis-plus.version>3.5.2</mybatis-plus.version>
 
         <p6spy.version>3.9.1</p6spy.version>
+        <jjwt.version>0.11.2</jjwt.version>
     </properties>
 
     <!-- 统一依赖管理 -->
     <dependencyManagement>
         <dependencies>
+
+            <!--   JWT   -->
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt-api</artifactId>
+                <version>${jjwt.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt-impl</artifactId>
+                <version>${jjwt.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.jsonwebtoken</groupId>
+                <artifactId>jjwt-jackson</artifactId>
+                <version>${jjwt.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>com.ithsy</groupId>
                 <artifactId>weblog-module-admin</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
 
+            <dependency>
+                <groupId>com.ithsy</groupId>
+                <artifactId>weblog-module-jwt</artifactId>
+                <version>${revision}</version>
+            </dependency>
             <!-- knife4j（API 文档工具） -->
             <dependency>
                 <groupId>com.github.xiaoymin</groupId>

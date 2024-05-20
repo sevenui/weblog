@@ -24,12 +24,12 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 public class TestController {
 
-//    @PostMapping("/test")
-//    @ApiOperationLog(description = "测试接口")
-//    public User test(@RequestBody User user){
-//
-//        return user;
-//    }
+    @PostMapping("/admin/test")
+    @ApiOperationLog(description = "测试接口")
+    public User test(@RequestBody User user){
+
+        return user;
+    }
 
 
     //参数校验test

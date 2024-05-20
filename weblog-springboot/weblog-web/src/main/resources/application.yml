@@ -25,3 +25,8 @@ spring:
 #      connection-timeout: 30000
 #      connection-test-query: SELECT 1
 
+jwt:
+  # 签发人
+  issuer: ithsy
+  # 秘钥
+  secret: 2aObfCVGoWipyw4bj0P4lxrB8hG1CgCH2NAQZnyfgfqCIZMS2VZfUfma2AgshTbrWAbb5WlRGs9+UyFqZvZdLQ==
